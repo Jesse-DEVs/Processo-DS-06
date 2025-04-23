@@ -33,8 +33,8 @@ class Passo3_Sash(DS06):
     def Sash(self):
         return("Pegar o Sash")
         
-    def Channel(self):
-        return("Channel no Sash")
+    def RunChannel(self):
+        return("RunChannel no Sash")
 
 
 def main():
@@ -70,7 +70,7 @@ def main():
     print(passo3.bolt("Bolt wash - 6x16"))
     print(passo3.Apertadeira())
     print(passo3.posicionamento())
-    print(passo3.Channel())
+    print(passo3.RunChannel())
    
 if __name__ == "__main__":
     main()
